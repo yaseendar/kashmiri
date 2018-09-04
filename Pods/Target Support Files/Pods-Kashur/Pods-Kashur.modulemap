@@ -1,0 +1,6 @@
+framework module Pods_Kashur {
+  umbrella header "Pods-Kashur-umbrella.h"
+
+  export *
+  module * { export * }
+}

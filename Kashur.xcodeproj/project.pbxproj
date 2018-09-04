@@ -7,13 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		29418F3E442B4F56181DB6A5 /* Pods_KashurTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FEE54D241A213A504EB1A520 /* Pods_KashurTests.framework */; };
 		6E099AC1213D137F00F2262A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E099AC0213D137F00F2262A /* AppDelegate.swift */; };
 		6E099AC3213D137F00F2262A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E099AC2213D137F00F2262A /* ViewController.swift */; };
-		6E099AC6213D137F00F2262A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6E099AC4213D137F00F2262A /* Main.storyboard */; };
 		6E099AC8213D138200F2262A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6E099AC7213D138200F2262A /* Assets.xcassets */; };
 		6E099ACB213D138200F2262A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6E099AC9213D138200F2262A /* LaunchScreen.storyboard */; };
 		6E099AD6213D138200F2262A /* KashurTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E099AD5213D138200F2262A /* KashurTests.swift */; };
 		6E099AE1213D138200F2262A /* KashurUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E099AE0213D138200F2262A /* KashurUITests.swift */; };
+		6E099AF0213D145B00F2262A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6E099AEE213D145B00F2262A /* Main.storyboard */; };
+		6E099AF2213D148E00F2262A /* shikara.png in Resources */ = {isa = PBXBuildFile; fileRef = 6E099AF1213D148E00F2262A /* shikara.png */; };
+		6E099AF4213D158700F2262A /* MeaningsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E099AF3213D158700F2262A /* MeaningsViewController.swift */; };
+		6E099AF6213D160300F2262A /* data.json in Resources */ = {isa = PBXBuildFile; fileRef = 6E099AF5213D160300F2262A /* data.json */; };
+		6E099AF8213D19C700F2262A /* paperback.png in Resources */ = {isa = PBXBuildFile; fileRef = 6E099AF7213D19C700F2262A /* paperback.png */; };
+		6E099AFA213D313F00F2262A /* icons8-voice-64.png in Resources */ = {isa = PBXBuildFile; fileRef = 6E099AF9213D313E00F2262A /* icons8-voice-64.png */; };
+		6E65C3E4213E4E28009788EF /* MainTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E65C3E3213E4E28009788EF /* MainTableViewCell.swift */; };
+		6EFA3F70213D4D69007AE11E /* Kashmiri_samavar.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6EFA3F6F213D4D68007AE11E /* Kashmiri_samavar.jpg */; };
+		6EFA3F74213D4F07007AE11E /* audios in Resources */ = {isa = PBXBuildFile; fileRef = 6EFA3F73213D4F06007AE11E /* audios */; };
+		8416781EBE6E6F7DDDF68A24 /* Pods_KashurUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AAA12760C474E9690A2993D4 /* Pods_KashurUITests.framework */; };
+		F2CA4D596CC5C495D9265BA5 /* Pods_Kashur.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A03A27AA72DE3CBA5AC857C /* Pods_Kashur.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,10 +45,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6D52C213BB315985AB709C3B /* Pods-KashurUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KashurUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-KashurUITests/Pods-KashurUITests.release.xcconfig"; sourceTree = "<group>"; };
 		6E099ABD213D137F00F2262A /* Kashur.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Kashur.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6E099AC0213D137F00F2262A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6E099AC2213D137F00F2262A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		6E099AC5213D137F00F2262A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6E099AC7213D138200F2262A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6E099ACA213D138200F2262A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6E099ACC213D138200F2262A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -47,6 +58,23 @@
 		6E099ADC213D138200F2262A /* KashurUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KashurUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6E099AE0213D138200F2262A /* KashurUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KashurUITests.swift; sourceTree = "<group>"; };
 		6E099AE2213D138200F2262A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6E099AEF213D145B00F2262A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6E099AF1213D148E00F2262A /* shikara.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = shikara.png; sourceTree = "<group>"; };
+		6E099AF3213D158700F2262A /* MeaningsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MeaningsViewController.swift; sourceTree = "<group>"; };
+		6E099AF5213D160300F2262A /* data.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = data.json; sourceTree = "<group>"; };
+		6E099AF7213D19C700F2262A /* paperback.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = paperback.png; sourceTree = "<group>"; };
+		6E099AF9213D313E00F2262A /* icons8-voice-64.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons8-voice-64.png"; sourceTree = "<group>"; };
+		6E65C3E3213E4E28009788EF /* MainTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTableViewCell.swift; sourceTree = "<group>"; };
+		6EFA3F6F213D4D68007AE11E /* Kashmiri_samavar.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Kashmiri_samavar.jpg; sourceTree = "<group>"; };
+		6EFA3F73213D4F06007AE11E /* audios */ = {isa = PBXFileReference; lastKnownFileType = folder; path = audios; sourceTree = "<group>"; };
+		8A03A27AA72DE3CBA5AC857C /* Pods_Kashur.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Kashur.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B618F294A2A0F758B281103 /* Pods-Kashur.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Kashur.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Kashur/Pods-Kashur.debug.xcconfig"; sourceTree = "<group>"; };
+		A0396EFA06814E33FF6C00D4 /* Pods-Kashur.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Kashur.release.xcconfig"; path = "Pods/Target Support Files/Pods-Kashur/Pods-Kashur.release.xcconfig"; sourceTree = "<group>"; };
+		A6957EF0BE5B37087E4D5BC0 /* Pods-KashurTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KashurTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KashurTests/Pods-KashurTests.debug.xcconfig"; sourceTree = "<group>"; };
+		AAA12760C474E9690A2993D4 /* Pods_KashurUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KashurUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD730C904CAB7637BC785D3A /* Pods-KashurUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KashurUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KashurUITests/Pods-KashurUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		F7557AEE880A327B75A6DA3C /* Pods-KashurTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KashurTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-KashurTests/Pods-KashurTests.release.xcconfig"; sourceTree = "<group>"; };
+		FEE54D241A213A504EB1A520 /* Pods_KashurTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KashurTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F2CA4D596CC5C495D9265BA5 /* Pods_Kashur.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				29418F3E442B4F56181DB6A5 /* Pods_KashurTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +98,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8416781EBE6E6F7DDDF68A24 /* Pods_KashurUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +112,8 @@
 				6E099AD4213D138200F2262A /* KashurTests */,
 				6E099ADF213D138200F2262A /* KashurUITests */,
 				6E099ABE213D137F00F2262A /* Products */,
+				80977141F918C93FBB37C5C9 /* Pods */,
+				B7C19C503AE85D6C900D0483 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,8 +132,16 @@
 			children = (
 				6E099AC0213D137F00F2262A /* AppDelegate.swift */,
 				6E099AC2213D137F00F2262A /* ViewController.swift */,
-				6E099AC4213D137F00F2262A /* Main.storyboard */,
+				6E099AF3213D158700F2262A /* MeaningsViewController.swift */,
+				6E65C3E3213E4E28009788EF /* MainTableViewCell.swift */,
+				6E099AEE213D145B00F2262A /* Main.storyboard */,
+				6EFA3F73213D4F06007AE11E /* audios */,
 				6E099AC7213D138200F2262A /* Assets.xcassets */,
+				6E099AF9213D313E00F2262A /* icons8-voice-64.png */,
+				6EFA3F6F213D4D68007AE11E /* Kashmiri_samavar.jpg */,
+				6E099AF7213D19C700F2262A /* paperback.png */,
+				6E099AF5213D160300F2262A /* data.json */,
+				6E099AF1213D148E00F2262A /* shikara.png */,
 				6E099AC9213D138200F2262A /* LaunchScreen.storyboard */,
 				6E099ACC213D138200F2262A /* Info.plist */,
 			);
@@ -125,6 +166,29 @@
 			path = KashurUITests;
 			sourceTree = "<group>";
 		};
+		80977141F918C93FBB37C5C9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8B618F294A2A0F758B281103 /* Pods-Kashur.debug.xcconfig */,
+				A0396EFA06814E33FF6C00D4 /* Pods-Kashur.release.xcconfig */,
+				A6957EF0BE5B37087E4D5BC0 /* Pods-KashurTests.debug.xcconfig */,
+				F7557AEE880A327B75A6DA3C /* Pods-KashurTests.release.xcconfig */,
+				AD730C904CAB7637BC785D3A /* Pods-KashurUITests.debug.xcconfig */,
+				6D52C213BB315985AB709C3B /* Pods-KashurUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B7C19C503AE85D6C900D0483 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8A03A27AA72DE3CBA5AC857C /* Pods_Kashur.framework */,
+				FEE54D241A213A504EB1A520 /* Pods_KashurTests.framework */,
+				AAA12760C474E9690A2993D4 /* Pods_KashurUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +196,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6E099AE5213D138200F2262A /* Build configuration list for PBXNativeTarget "Kashur" */;
 			buildPhases = (
+				020145922342EC1C647C5D06 /* [CP] Check Pods Manifest.lock */,
 				6E099AB9213D137F00F2262A /* Sources */,
 				6E099ABA213D137F00F2262A /* Frameworks */,
 				6E099ABB213D137F00F2262A /* Resources */,
+				DBD4A1CBF536CB5942E22E4D /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -149,6 +215,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6E099AE8213D138200F2262A /* Build configuration list for PBXNativeTarget "KashurTests" */;
 			buildPhases = (
+				57F11E7848B5EC8EC7AD0D69 /* [CP] Check Pods Manifest.lock */,
 				6E099ACD213D138200F2262A /* Sources */,
 				6E099ACE213D138200F2262A /* Frameworks */,
 				6E099ACF213D138200F2262A /* Resources */,
@@ -167,6 +234,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6E099AEB213D138200F2262A /* Build configuration list for PBXNativeTarget "KashurUITests" */;
 			buildPhases = (
+				0FADEF1F4AA46AA0E3C5C67D /* [CP] Check Pods Manifest.lock */,
 				6E099AD8213D138200F2262A /* Sources */,
 				6E099AD9213D138200F2262A /* Frameworks */,
 				6E099ADA213D138200F2262A /* Resources */,
@@ -229,9 +297,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6E099AF0213D145B00F2262A /* Main.storyboard in Resources */,
+				6EFA3F74213D4F07007AE11E /* audios in Resources */,
+				6E099AF2213D148E00F2262A /* shikara.png in Resources */,
+				6E099AFA213D313F00F2262A /* icons8-voice-64.png in Resources */,
 				6E099ACB213D138200F2262A /* LaunchScreen.storyboard in Resources */,
+				6E099AF6213D160300F2262A /* data.json in Resources */,
+				6EFA3F70213D4D69007AE11E /* Kashmiri_samavar.jpg in Resources */,
 				6E099AC8213D138200F2262A /* Assets.xcassets in Resources */,
-				6E099AC6213D137F00F2262A /* Main.storyboard in Resources */,
+				6E099AF8213D19C700F2262A /* paperback.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,6 +325,81 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		020145922342EC1C647C5D06 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Kashur-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		0FADEF1F4AA46AA0E3C5C67D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KashurUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		57F11E7848B5EC8EC7AD0D69 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KashurTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DBD4A1CBF536CB5942E22E4D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Kashur/Pods-Kashur-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Kashur/Pods-Kashur-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		6E099AB9213D137F00F2262A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -258,6 +407,8 @@
 			files = (
 				6E099AC3213D137F00F2262A /* ViewController.swift in Sources */,
 				6E099AC1213D137F00F2262A /* AppDelegate.swift in Sources */,
+				6E65C3E4213E4E28009788EF /* MainTableViewCell.swift in Sources */,
+				6E099AF4213D158700F2262A /* MeaningsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -293,20 +444,20 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		6E099AC4213D137F00F2262A /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				6E099AC5213D137F00F2262A /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		6E099AC9213D138200F2262A /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				6E099ACA213D138200F2262A /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		6E099AEE213D145B00F2262A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6E099AEF213D145B00F2262A /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -428,6 +579,7 @@
 		};
 		6E099AE6213D138200F2262A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8B618F294A2A0F758B281103 /* Pods-Kashur.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -436,7 +588,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.trialx.Kashur;
+				PRODUCT_BUNDLE_IDENTIFIER = com.trialx.Kashmiri;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -445,6 +597,7 @@
 		};
 		6E099AE7213D138200F2262A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A0396EFA06814E33FF6C00D4 /* Pods-Kashur.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -453,7 +606,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.trialx.Kashur;
+				PRODUCT_BUNDLE_IDENTIFIER = com.trialx.Kashmiri;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -462,6 +615,7 @@
 		};
 		6E099AE9213D138200F2262A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A6957EF0BE5B37087E4D5BC0 /* Pods-KashurTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -482,6 +636,7 @@
 		};
 		6E099AEA213D138200F2262A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F7557AEE880A327B75A6DA3C /* Pods-KashurTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -502,6 +657,7 @@
 		};
 		6E099AEC213D138200F2262A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AD730C904CAB7637BC785D3A /* Pods-KashurUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -521,6 +677,7 @@
 		};
 		6E099AED213D138200F2262A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6D52C213BB315985AB709C3B /* Pods-KashurUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
